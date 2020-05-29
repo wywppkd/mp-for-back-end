@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/h5/h5",
+    "pages/h5/h5"
+  ],
+  "window": {
+    "defaultTitle": "My App",
+    "allowsBounceVertical": "NO"
+  }
+}

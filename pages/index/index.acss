@@ -1,0 +1,7 @@
+.item{
+  padding: 30rpx;
+}
+.index-input{
+  width: calc(100vw - 90rpx);
+  height: 100rpx;
+}

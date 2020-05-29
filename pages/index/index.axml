@@ -1,0 +1,24 @@
+<view class="index">
+  <view class="item">
+    <input class="index-input" placeholder="请输入tradeNO" value="{{tradeNO}}" onInput="inputChange" />
+    <button size="default" type="primary" onTap="doPay">支付</button>
+  </view>
+
+  <view class="item">
+    <button size="default" type="primary">获取authCode</button> 
+    <view>authCode:{{authCode}}</view>
+  </view>
+
+  <view class="item">
+    <button size="default" type="primary" onTap="getCoupon">领券</button> 
+  </view>
+
+  <view class="item">
+    <button size="default" type="primary" onTap="gotoMP">跳转小程序</button> 
+  </view>
+
+    <view class="item">
+    <button size="default" type="primary" onTap="openCard">开卡</button> 
+  </view>
+
+</view>
