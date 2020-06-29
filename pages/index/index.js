@@ -46,11 +46,11 @@ Page({
       url: decodeURIComponent(url),
       success: (res) => {
         console.log(res)
-        my.alert({content: '授权成功'});
+        my.alert({content:JSON.stringify(res)});
       },
       fail: (res) => {
         console.log(res)
-        my.alert({content: '授权失败'});
+        my.alert({content:JSON.stringify(res)});
       },
     });
   }

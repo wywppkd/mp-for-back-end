@@ -1,0 +1,3 @@
+<view>
+  <button size="default" type="primary" onTap="gotoYou">模拟小马渠道跳油荟通</button>
+</view>

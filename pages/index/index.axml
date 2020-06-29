@@ -1,4 +1,5 @@
 <view class="index">
+  <favorite>收藏小程序，下次使用更方便</favorite>
   <view class="item">
     <input class="index-input" placeholder="请输入tradeNO" value="{{tradeNO}}" onInput="inputChange" />
     <button size="default" type="primary" onTap="doPay">支付</button>
